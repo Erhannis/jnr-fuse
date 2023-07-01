@@ -29,4 +29,4 @@ choco install winfsp
 #### Troubleshooting
 
 * If you see the `service java has failed to start` error or corrupted file names/content, setting
-the explicit file encoding `-Dfile.encoding=UTF-8` might help.
+the explicit file encoding `-Dfile.encoding=UTF-8` on run might help.  E.g., `java -Dfile.encoding=UTF-8 -jar YOUR_JAR`
